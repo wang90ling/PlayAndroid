@@ -1,8 +1,8 @@
 plugins {
     id("com.android.application")
-    id("kotlin-android")
+    id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
-    id("dagger.hilt.android.plugin")
+    id("com.google.dagger.hilt.android")
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
@@ -108,5 +108,5 @@ dependencies {
     testImplementation("${rootProject.extra["junit"] as String?}")
     androidTestImplementation("${rootProject.extra["extJunit"] as String?}")
     androidTestImplementation("${rootProject.extra["espressoCore"] as String?}")
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.5.0-beta01")
 }

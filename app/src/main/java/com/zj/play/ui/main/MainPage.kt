@@ -40,6 +40,7 @@ fun MainPageContent(
     val tabs = CourseTabs.values()
     // 当前是否为横屏
     val isLand = isLand()
+    //页面骨架，包含bottomBar,topBar,content
     Scaffold(
         backgroundColor = MaterialTheme.colors.primary,
         modifier = Modifier
@@ -68,6 +69,7 @@ private fun TabRows(
     homeViewModel: HomeViewModel,
     actions: PlayActions
 ) {
+    //Modifier：Compose 中非常重要的“修饰链”，用于控制大小、间距、点击、背景等
     val modifier = Modifier.padding(innerPadding)
     // 当前是否为横屏
     val isLand = isLand()

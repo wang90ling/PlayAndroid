@@ -35,7 +35,7 @@
     <string name="search">搜索</string>
     <string name="keyword_not_null">搜索關鍵字不能為空</string>
     <string name="keyword_null">沒有關於  %s  的數據，請更換關鍵字搜索</string>
-    <string name="home_page">首頁</string>
+    <string name="home_page">首頁111</string>
     <string name="home_system">体系</string>
     <string name="project">項目</string>
     <string name="official_account">公眾號</string>
@@ -101,7 +101,7 @@
     <string name="show_password">显示密码</string>
     <string name="hide_password">隐藏密码</string>
     <string name="forgot_password">忘记密码？</string>
-    <string name="sign_in">登录</string>
+    <string name="sign_in">Login</string>
     <string name="password">密码</string>
     <string name="confirm_password">确认密码</string>
     <string name="email">账号</string>

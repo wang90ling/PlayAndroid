@@ -21,8 +21,8 @@ extra["extJunit"] = "androidx.test.ext:junit:1.1.5"
 extra["espressoCore"] = "androidx.test.espresso:espresso-core:3.5.1"
 
 plugins {
-    id("com.android.application") version "8.13.0" apply false
-    id("com.android.library") version "8.13.0" apply false
+    id("com.android.application") version "8.7.3" apply false
+    id("com.android.library") version "8.7.3" apply false
     kotlin("android") version "2.0.21" apply false
     id("com.google.devtools.ksp") version "2.0.21-1.0.28" apply false
     id("com.google.dagger.hilt.android") version "2.52" apply false
